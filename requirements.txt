@@ -1,0 +1,5 @@
+SQLAlchemy==1.4.27
+SQLAlchemy-ImageAttach==1.1.0
+vk==2.0.2
+vk-api==11.9.7
+

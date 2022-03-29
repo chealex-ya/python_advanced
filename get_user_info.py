@@ -3,6 +3,7 @@ from token_vk import token
 from pprint import pprint
 from datetime import datetime
 
+
 class USER:
     url = 'https://api.vk.com/method/'
     def __init__(self):
@@ -21,7 +22,7 @@ class USER:
         try:
             name = user_profile.json()['response'][0]['first_name']
         except:
-            name = NO_NAME
+            name = "No_name"
         try:
             city = user_profile.json()['response'][0]['city']['id']
         except:

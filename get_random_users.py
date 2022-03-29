@@ -30,3 +30,4 @@ class RANDOM_USERS:
 		}
 		random_users = requests.get(url_get_profile, params={**self.params, **get_user_params})
 		return random_users.json()
+
